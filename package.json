@@ -2,6 +2,11 @@
   "name": "feature-hot-loader",
   "version": "0.0.1",
   "description": "A Library To help Generate Hot Features",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
   "keywords": [
     "hot-loader",
     "typescript"
@@ -11,8 +16,10 @@
     "url": "https://github.com/sehdevkumar/feature-hot-loader/issues"
   },
   "author": "Sehdev Kumar",
-  "contributors": [""],
-  "license":"MIT",
+  "contributors": [
+    ""
+  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sehdevkumar/feature-hot-loader.git"
@@ -20,5 +27,9 @@
   "files": [
     "dist"
   ],
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
 }
