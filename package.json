@@ -1,0 +1,24 @@
+{
+  "name": "feature-hot-loader",
+  "version": "0.0.1",
+  "description": "A Library To help Generate Hot Features",
+  "keywords": [
+    "hot-loader",
+    "typescript"
+  ],
+  "homepage": "https://github.com/sehdevkumar/feature-hot-loader",
+  "bugs": {
+    "url": "https://github.com/sehdevkumar/feature-hot-loader/issues"
+  },
+  "author": "Sehdev Kumar",
+  "contributors": [""],
+  "license":"MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sehdevkumar/feature-hot-loader.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module"
+}
